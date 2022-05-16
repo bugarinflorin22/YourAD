@@ -1,0 +1,138 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav-bar {
+    height: 50px;
+    background-color: rgb(75, 1, 1);
+}
+
+nav {
+    float: right;
+    margin: 15px 20px;
+    display: all;
+}
+
+
+nav ul li {
+    display: inline;
+    margin-right: 40px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: 'Chakra Petch', sans-serif;
+    
+}
+
+a:hover {
+    border-bottom: 3px solid rgb(2, 250, 2);
+    padding-bottom: 12px;
+    transition: 0.5s;
+
+}
+
+body {
+    background-image: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed; 
+    background-size: cover;
+}
+
+.has {
+    color: snow;
+    text-align: center;
+    padding-top: 120px;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+.has3 {
+    color: snow;
+    text-align: center;
+    padding-top: 10px;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+.has2 {
+    color: snow;
+    text-align: center;
+    padding-top: 10px;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+.btn {
+    color: wheat;
+    font-family: 'Chakra Petch', sans-serif;
+    text-align: center;
+    margin-top: 200px;
+    font-size: 50px;
+}
+
+.buton {
+    background-color: rgb(30, 29, 78);
+    font-size: 50px;
+    padding: 20px;
+    color: white;
+    border: none;
+    margin-top: 100px;
+    font-family: 'Chakra Petch', sans-serif;
+    box-shadow: 0px 0px 20px 10px rgb(46, 111, 119);
+}
+.buton:hover {
+    box-shadow: 0px 0px 5px  rgb(46, 111, 119);
+    transition: 0.5s;
+    cursor: pointer;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(34, 16, 66);
+    color: white;
+    text-align: center;
+ }
+
+ .footer p {
+     padding: 10px;
+ }
+
+ @media (max-width: 800px) {
+     .has {
+         font-size: 10px;
+         padding-top: 30px;
+     }
+     .has2 {
+        font-size: 5px;
+     }
+     .has3 {
+        font-size: 10px;
+    }
+    .buton {
+        font-size: 10px;
+    }
+    .footer p {
+        font-size: 5px;
+    }
+    .footer {
+        margin-top: 20px;
+    }
+    nav ul li {
+        font-size: 10px;
+        margin-right: 5px;
+    }
+    nav {
+        margin: 15px 0px;
+    }
+    body {
+        -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: initial;
+    height: 100%;
+    overflow: hidden;
+}
+ }
